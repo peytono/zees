@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { Instagram } from 'react-feather';
 
 export default function Home() {
   return (
@@ -111,7 +112,7 @@ export default function Home() {
     // </main>
     <div>
       <header>
-        <Image src="/zeesLogoRedWhite.png" alt="Zee's Logo" width="80" height="50"/>
+        <Image src="/zeesLogoRedWhite.png" alt="Zee's Logo" width="80" height="50" />
       </header>
       <main>
         <h2>
@@ -129,6 +130,13 @@ export default function Home() {
           25% off Slices, Salads, & Knots
         </strong>
       </main>
+      <footer>
+        <p>
+          <strong>3914 Baronne Street, New Orleans LA 70115</strong>
+        </p>
+        <br />
+        <Instagram />
+      </footer>
     </div>
   );
 }
