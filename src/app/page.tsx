@@ -135,7 +135,9 @@ export default function Home() {
           <strong>3914 Baronne Street, New Orleans LA 70115</strong>
         </p>
         <br />
-        <Instagram />
+        <a href='https://www.instagram.com/zeespizzeria'>
+          <Instagram />
+        </a>
       </footer>
     </div>
   );
