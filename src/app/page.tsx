@@ -1,6 +1,3 @@
-import Image from 'next/image';
-import { Instagram } from 'react-feather';
-
 export default function Home() {
   return (
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -111,16 +108,14 @@ export default function Home() {
     //   </div>
     // </main>
     <div>
-      <header>
-        <Image src="/zeesLogoRedWhite.png" alt="Zee's Logo" width="80" height="50" />
-      </header>
+      
       <main>
         <h2>
           <strong>
             Northeast-style pizzeria serving slices, whole pies, salads, knots, beer & wine
           </strong>
         </h2>
-        <h3 text-decoration="underline">
+        <h3>
           <strong>Happy Hour</strong>
         </h3>
         <strong>
@@ -130,15 +125,7 @@ export default function Home() {
           25% off Slices, Salads, & Knots
         </strong>
       </main>
-      <footer>
-        <p>
-          <strong>3914 Baronne Street, New Orleans LA 70115</strong>
-        </p>
-        <br />
-        <a href='https://www.instagram.com/zeespizzeria'>
-          <Instagram />
-        </a>
-      </footer>
+      
     </div>
   );
 }
