@@ -26,6 +26,36 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem;
+}
+
+main {
+  background-image: url('../../public/bg.jpg');
+  color: black;
+  min-height: max-content;
+}
+
+footer {
+  color: #ee2f28;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: min-content;
+}
+
+.navigation {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  color: black;
+  display: none;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
