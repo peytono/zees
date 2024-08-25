@@ -107,7 +107,6 @@ export default function Home() {
     //     </a>
     //   </div>
     // </main>
-    <div>
       
       <main>
         <h2>
@@ -126,6 +125,5 @@ export default function Home() {
         </strong>
       </main>
       
-    </div>
   );
 }

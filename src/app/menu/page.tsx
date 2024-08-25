@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Menu() {
   return (
-    <div>
+    <main>
       <h1>Current Specials:</h1>
       <h2>Salads:</h2>
       <strong>Ceasar $10</strong>
@@ -24,6 +24,6 @@ export default function Menu() {
       <Image src="/menu.jpeg" alt="Zee's Pizzeria Menu" height="1500" width="700" />
       <br/>
       <hr/>
-    </div>
+    </main>
   );
 }

@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function ourPizza() {
   return (
-    <div>
+    <main>
       <h1>No tricks just hard work, old school…</h1>
       <h2>Dough</h2>
       <p>
@@ -66,6 +66,6 @@ export default function ourPizza() {
         <li>Garlic Knots</li>
         <li>Sodas, Beer & Wine!</li>
       </ul>
-    </div>
+    </main>
   );
 }
